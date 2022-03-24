@@ -1,2 +1,2 @@
-# projeto-manoel-almeida
-Site institucional - Projeto IOT Revolucionário
+# Projeto AcquaTec
+Site institucional - Projeto AcquaTec
