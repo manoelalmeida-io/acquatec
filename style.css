@@ -1,24 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000407;
+  font-family: 'Barlow', sans-serif;
+}
+
 .header {
   background-color: #000407;
   color: #32B9CD;
+  border-bottom: 3px solid #32B9CD;
 }
 
 .container {
   width: 80%;
+  margin: 0 auto;
 }
 
 .header .container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .navbar {
- display: flex;
- list-style: none;
- width: 400px;
- justify-content: space-between; 
+  display: flex;
+  list-style: none;
+  width: 400px;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0;
 }
 
-p {
-  margin: 20px 30px 40px 50px;
+.header a {
+  text-decoration: none;
+  color: #E3B062;
+}
+
+.agora {
+  font-weight: bold;
+}
+
+/* BANNER */
+
+.banner {
+  color: white;
+  background-image: url('./imgs/bg-jelly-fish-para_outras_pags.png');
+  background-size: cover;
+}
+
+.banner .container {
+  height: 550px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .container.login {
+  justify-content: center;
+}
+
+.banner p {
+  width: 280px;
+  font-size: 36px;
+  margin-left: 20%;
+}
+
+/* SOCIAL */
+.social {
+  background-color: #e5e5e5;
+  padding: 50px 0;
+}
+
+.social .titulo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.social h2 {
+  background-color: white;
+  color: #e6005a;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.social .boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social .box {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.social .box img {
+  width: 150px;
+}
+
+.social .box h4 {
+  color: #e6005a;
+  margin-top: 30px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #32B9CD;
+  color: white;
+}
+
+.footer .container {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #e5e5e5;
+  height: 350px;
+  width: 400px;
+  display: flex;
+  color: #e6005a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h2 {
+  margin: 0;
+}
+
+form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+form input {
+  padding: 8px;
+  margin-top: 8px;
+  outline: 3px solid #32B9CD;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Barlow', sans-serif;
+}
+
+form button {
+  width: 120px;
+  background-color: #e6005a;
+  color: white;
+  align-self: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Barlow', sans-serif;
+  cursor: pointer;
 }
